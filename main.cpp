@@ -4,5 +4,6 @@
 int main(int argc, char const *argv[])
 {
     say_hello();
+    test_opencv();
     return 0;
 }
