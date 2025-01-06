@@ -1,1 +1,3 @@
-# knn_lbp_opencv
+Treinamento Machine Learning – LBP + KNN 
+
+
