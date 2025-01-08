@@ -3,7 +3,8 @@
 
 int main(int argc, char const *argv[])
 {
-    say_hello();
+    // say_hello();
+    test_armadilo();
     test_opencv();
     return 0;
 }

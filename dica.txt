@@ -1,0 +1,3 @@
+g++ -o test_opencv test_opencv.cpp `pkg-config --cflags --libs opencv4`
+./test_opencv
+
