@@ -13,7 +13,7 @@ find_package(LAPACK REQUIRED)
 find_package(BLAS REQUIRED)
 
 # Adicionar a biblioteca knn_lbp
-add_library(knn_lbp STATIC lib_knn_lbp/src/knn_lbp.cpp)
+add_library(knn_lbp STATIC lib_knn_lbp/src/knn.cpp lib_knn_lbp/src/lbp.cpp)
 
 # Definir a macro ARMA_DONT_USE_WRAPPER antes de incluir o cabeçalho do Armadillo
 target_compile_definitions(knn_lbp PUBLIC ARMA_DONT_USE_WRAPPER)
