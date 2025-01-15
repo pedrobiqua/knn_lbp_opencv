@@ -81,7 +81,7 @@ int knn::classify(const data_point& test_point, int k)
     std::sort(distances.begin(), distances.end());
 
     // Contar as classes dos k vizinhos mais próximos
-    std::map<int, int> class_count;
+    std::unordered_map<int, int> class_count;
     for (int i = 0; i < k; i++) {
         class_count[distances[i].second]++;
     }

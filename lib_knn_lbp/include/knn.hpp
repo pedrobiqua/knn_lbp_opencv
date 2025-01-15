@@ -10,6 +10,7 @@
 #include <opencv2/highgui.hpp>
 #include <opencv2/opencv.hpp>
 #include <stdexcept>
+#include <unordered_map>
 #include <vector>
 
 // Namespace para KNN
